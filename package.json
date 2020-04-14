@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/afaqahmedkhan/chat-app.git"
+  },
+  "author": "Afaq Ahmed Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afaqahmedkhan/chat-app/issues"
+  },
+  "homepage": "https://github.com/afaqahmedkhan/chat-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
